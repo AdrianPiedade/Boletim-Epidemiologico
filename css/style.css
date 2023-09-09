@@ -1,0 +1,263 @@
+.fundo {
+    background-color: rgb(128,0,0);
+    margin-left: 550px;
+    margin-right: 550px;
+    border: 2px solid #000;
+}
+
+.menu_titulos {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(80,0,0);
+    color: white;
+    border-radius: 10px;
+    height: 90px;
+    font-size: 70px;
+    margin-top: 30px;
+    z-index: 2;
+    align-items: center;
+    font-family: 'Nordique Pro Bold', sans-serif;
+}
+
+.menu_h2 {
+    margin-top: -57px;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    font-size: 15px;
+    background-color: rgb(255,138,1);
+    border-radius: 10px;
+}
+
+.menu_navegacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    color: rgb(80,0,0);
+    margin-right: 10px;
+    font-family: 'Nordique Pro Bold', sans-serif;
+}
+
+.numero {
+    color: white;
+    font-family: 'Nordique Pro Bold', sans-serif;
+}
+
+.menu_lateral {
+    background-color: rgb(255,138,1);
+    border-radius: 50%;
+    height: 135px;
+    width: 135px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 25px;
+    font-family: 'Nordique Pro Bold', sans-serif;
+}
+
+.data {
+    color: rgb(80,0,0);
+    font-size: 50px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    font-family: 'Nordique Pro Bold', sans-serif;
+    font-weight: bold;
+}
+
+.cidade {
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 13px;
+    letter-spacing: 7px;
+    font-family: 'Nordique Pro Bold', sans-serif;
+    font-weight: lighter;
+}
+
+.ponto_titulo1 {
+    margin-bottom: 0px;
+    color: rgb(254,19,19);
+    font-size: 25px;
+    margin-left: 30px;
+    font-family: 'Nordique Pro Bold', sans-serif;
+    font-weight: bold;
+}
+
+.ponto_titulo2 {
+    margin-bottom: 0px;
+    color: rgb(48,168,226);
+    font-size: 25px;
+    margin-left: 30px;
+    font-family: 'Nordique Pro Bold', sans-serif;
+    font-weight: bold;
+}
+
+.ponto_titulo3 {
+    margin-bottom: 0px;
+    color: rgb(247,193,1);
+    font-size: 25px;
+    margin-left: 30px;
+    font-family: 'Nordique Pro Bold', sans-serif;
+    font-weight: bold;
+}
+
+.ponto_titulo4 {
+    margin-bottom: 0px;
+    color: rgb(58,196,49);
+    font-size: 25px;
+    margin-left: 30px;
+    font-family: 'Nordique Pro Bold', sans-serif;
+    font-weight: bold;
+}
+
+.ponto_titulo5 {
+    margin-bottom: 0px;
+    color:rgb(32,32,32);
+    font-size: 35px;
+    margin-left: 30px;
+    font-family: 'Nordique Pro Bold', sans-serif;
+    font-weight: bold;
+}
+
+.ponto_subtitulo1 {
+    margin-top: 0px;
+    color: rgb(108,0,0);
+    margin-left: 30px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.ponto_titulos1 {
+    background-color: white;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    width: 700px;
+    height: 100px;
+}
+
+.ponto1 {
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ponto_numero1 {
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(254,19,19);
+    height: 100px;
+    width: 100px;
+    margin-left: -100px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Nordique Pro Bold', sans-serif;
+    font-weight: bold;
+}
+
+.ponto_numero2 {
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48,168,226);
+    height: 100px;
+    width: 100px;
+    margin-left: -100px;
+    color: white;
+    font-size: 40px;
+}
+
+.ponto_numero3 {
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247,193,1);
+    height: 100px;
+    width: 100px;
+    margin-left: -100px;
+    color: white;
+    font-size: 40px;
+}
+
+.ponto_numero4 {
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(58,196,49);
+    height: 100px;
+    width: 100px;
+    margin-left: -100px;
+    color: white;
+    font-size: 40px;
+}
+
+.ponto_numero5 {
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32,32,32);
+    height: 100px;
+    width: 100px;
+    margin-left: -100px;
+    color: white;
+    font-size: 40px;
+}
+
+.fique_em_casa {
+    display: flex;
+    justify-content: right;
+    color: rgb(228,136,32);
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 75px;
+}
+
+.telefones {
+    margin-left: 100px;
+    font-weight: bold;
+    font-family: 'Nordique Pro Bold', sans-serif;
+}
+
+.img3 {
+    margin-right: 100px;
+}
+
+.divisao {
+    color: rgb(255,165,60);
+    font-size: xx-large;
+}
